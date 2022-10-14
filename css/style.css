@@ -1,3 +1,50 @@
+.center { 
+    text-align: center;
+}
+.profile_picture{
+    text-align:center;
+    display:flex;
+    padding:10px;
+}
+.conquistas{
+    margin:30px;
+    text-align:center;
+}
+.pe { 
+    margin:50px;
+    text-align:center;
+    padding:30px;
+    border-style:solid;
+    border-color:black;
+    border-width:1rem;
+
+}
+.linha_preta{
+    border-bottom:solid, black, 1px;
+    border-style:solid;
+}
+.imagens{
+    border-style:solid;
+    border-color: black;
+    border-width:1px;
+    width:75px;
+    height:75px;
+    
+}
+.trofeus{
+    height:50px;
+    width:50px;
+}
+.flex_imagens{
+    display:flex;
+    border-style:solid;
+    justify-content: space-around;
+    
+}
+.grafico{
+    width:300px;
+    height:100px;
+}
 footer {
     display: flex;
 }
@@ -22,7 +69,7 @@ footer {
 
 .botoes {
     align-items: center;
-} 
+}
 
 .h2_certificado {
     font-size: 1.5rem;
@@ -36,3 +83,4 @@ footer {
     flex-direction: column;
     justify-content: space-around;
 }
+
