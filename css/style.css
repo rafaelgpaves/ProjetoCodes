@@ -48,10 +48,6 @@
     height:100px;
 }
 
-footer {
-    display: flex;
-}
-
 .linha {
     display: flex;
     flex-direction: row;
@@ -92,6 +88,13 @@ footer {
     justify-content: space-around;
 }
 
+.texto_simulador {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header {
     display: flex;
     position: relative;
@@ -106,4 +109,8 @@ header img {
     left: 0;
     width: 3rem;
     height: 3rem;
+}
+
+footer {
+    display: flex;
 }
