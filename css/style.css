@@ -22,4 +22,17 @@ footer {
 
 .botoes {
     align-items: center;
+} 
+
+.h2_certificado {
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.fig_certificado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
