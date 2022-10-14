@@ -45,3 +45,28 @@
     width:300px;
     height:100px;
 }
+footer {
+    display: flex;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.botao {
+    border: black solid 0.1rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    min-width: 250px;
+}
+
+.botoes {
+    align-items: center;
+}
