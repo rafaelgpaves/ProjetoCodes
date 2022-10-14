@@ -1,3 +1,5 @@
+/* literalmente o pior css da história */
+
 .center { 
     text-align: center;
 }
@@ -69,4 +71,20 @@ footer {
 
 .botoes {
     align-items: center;
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
 }
