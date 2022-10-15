@@ -95,6 +95,27 @@
     align-items: center;
 }
 
+.input_simulador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pergunta {
+    margin: 1rem 1rem 1rem 2.5rem;
+    font-size: 1.1rem;
+}
+
+.exercicio {
+    margin: 0.1rem 0.5rem 0.1rem 1.5rem;
+}
+
+h2.exs {
+    font-size: 1.6rem;
+    margin: 0 5%;
+}
+
 header {
     display: flex;
     position: relative;
@@ -118,19 +139,5 @@ footer {
 video {
     width: 90%;
     height: 80%;
-    margin: 0 5%;
-}
-
-.pergunta {
-    margin: 1rem 1rem 1rem 2.5rem;
-    font-size: 1.1rem;
-}
-
-.exercicio {
-    margin: 0.1rem 0.5rem 0.1rem 1.5rem;
-}
-
-h2.exs {
-    font-size: 1.6rem;
     margin: 0 5%;
 }
