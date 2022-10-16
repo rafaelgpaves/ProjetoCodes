@@ -149,3 +149,27 @@ video {
     align-self: center;
     margin: 25% 0 10% 0;
 }
+
+.img-gastos {
+    height: 70%;
+    width: 70%;
+}
+
+.centralizar {
+    justify-content: center;
+}
+
+h2.gastos {
+    margin: 2rem 0 1rem 1rem;
+    text-decoration: underline;
+}
+
+li.gastos {
+    margin: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.link-gastos {
+    margin: 5%;
+    padding: 1rem;
+    border: black solid 0.1rem;
+}
