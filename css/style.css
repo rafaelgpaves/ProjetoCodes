@@ -187,3 +187,27 @@ li.gastos {
     margin: 1rem 0;
     padding: 0.5rem;
 }
+
+h2.calc_gastos{
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+
+}
+ol.calc_gastos {
+    display: flex;
+    flex-direction: column;
+}
+ul.calc_gastos{
+    display: flex;
+    flex-direction: column;
+}
+p.calc_gastos{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    margin: 0.5rem;
+}
