@@ -179,3 +179,7 @@ li.gastos {
     padding: 1rem;
     border: black solid 0.1rem;
 }
+.seta { 
+    top:5px;
+    left:-125px;
+}
