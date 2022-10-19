@@ -183,3 +183,7 @@ li.gastos {
     top:5px;
     left:-125px;
 }
+.texto {
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
