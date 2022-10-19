@@ -179,3 +179,8 @@ li.gastos {
     padding: 1rem;
     border: black solid 0.1rem;
 }
+
+.texto {
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
