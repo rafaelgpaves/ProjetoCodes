@@ -99,7 +99,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-content: space-between;
 }
 
 .continuar_simulador {
@@ -210,4 +210,10 @@ p.calc_gastos{
     flex-direction: row ;
     justify-content: center;
     margin: 0.5rem;
+}
+
+.coluna_simulador {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 50px 0px;
 }
