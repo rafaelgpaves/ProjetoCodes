@@ -218,14 +218,18 @@ ul.calc_gastos{
     flex-direction: column;
 }
 p.calc_gastos{
-    display: flex;
-    flex-direction: row ;
-    justify-content: center;
-    margin: 0.5rem;
+    
+    padding: 0 0.5rem 0 0.5rem ;
 }
+li.calc_gastos{
+    display: flex;
+    margin: 0.5rem;
+}   
 
 .coluna_simulador {
     display: flex;
     flex-direction: column;
     margin: 20px 0px 50px 0px;
 }
+
+
