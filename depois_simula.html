@@ -16,30 +16,54 @@
         <h1>Simulador</h1>
     </header>
     <main>
-
-        <p>Saldo:R$ xxxxxxx,xx</p>
-        <p>Quanto quer investir?<input type="text" ></p>
+        <ul class="texto_simulador">
+            <li><p>Saldo: R$ xxxxxxx,xx</p></li>
+            <li>
+                <ul class="input_simulador">
+                    <li><p>Quanto quer investir</p></li>
+                    <li><input type ="text" ></li>
+                </ul>
+            </li>
         
-
         <p>Quanto quer tempo deixar investido?</p>
-        <ul>
-            <li> 1 ano </li>
-            <li> 2 anos </li>
-            <li> 3 anos </li>
-            <li> 5 anos </li>
-            <li> 8 anos </li>
-            <li> 10 anos </li>
-            <li> 15 anos </li>
-            <li> 20 anos </li>
+        <ul class="linha">
+            <li>
+                <ul class="coluna">
+                    <li> 1 ano </li>
+                    <li> 2 anos </li>
+                    <li> 3 anos </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="coluna">
+                    <li> 5 anos </li>
+                    <li> 10 anos </li>
+                    <li> 15 anos </li>
+                </ul>
+            </li>
         </ul>
+
         <p>Em qual ativo ?</p>
-        <ul>
-            <li>Renda fixa</li>
-            <li>Multimercado</li>
-            <li>Fundos imobiliarios</li>
-            <li>Debentures</li>
-            <li>Ações</li>
-            <li>Outros?<input type="text"></li>
+        <ul class="linha">
+            <li>
+                <ul class="coluna">
+                    <li> Renda Fixa </li>
+                    <li> Multimercado </li>
+                    <li> Fundos imobiliários </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="coluna">
+                    <li> Debentures </li>
+                    <li> Ações </li>
+                    <li>
+                        <ul class="input_simulador">
+                            <li><p>Outros</p></li>
+                            <li><input type ="text" ></li>
+                        </ul>  
+                    </li>
+                </ul>
+            </li>
         </ul>
 
         <h3>Capital inicial </h3>

@@ -3,40 +3,48 @@
 .center { 
     display:flex;
     align-items:  center;
+    text-align: center;
+    justify-content: center;
 }
 .profile_picture{
-    text-align:center;
-    display:flex;
-    padding:10px;
+    /* text-align:center; */
+    /* display:flex; */
+    padding:10%;
+    width: 60%;
+    height: auto;
 }
 .conquistas{
-    margin:30px;
+    margin:20%;
     text-align:center;
 }
-.pe { 
+/* .pe { 
     margin:50px;
     text-align:center;
     padding:30px;
     border-style:solid;
     border-color:black;
     border-width:1rem;
-
-}
-.linha_preta{
-    border-bottom:solid, black, 1px;
+NAO ESTA SENDO USADO
+} */
+/* .linha_preta{
+    border-bottom:solid black 1px;
     border-style:solid;
-}
+NAO ESTA SENDO USADO
+} */
 .imagens{
     border-style:solid;
     border-color: black;
-    border-width:1px;
-    width:75px;
-    height:75px;
+    border-width: 0.1rem;
+    width: 5rem;
+    height: auto;
+    min-width:44px;
+    min-height:44px;
     
 }
 .trofeus{
-    height:50px;
-    width:50px;
+    width: 30%;
+    height: auto;
+    margin-bottom: 2rem;
 }
 .flex_imagens{
     display:flex;
@@ -44,8 +52,10 @@
     justify-content: space-around;
 }
 .grafico{
-    width:300px;
-    height:100px;
+    width: 60%;
+    height: auto;
+    /* min-width:300px;
+    min-height:100px; */
 }
 
 .linha {
@@ -99,7 +109,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-content: space-between;
 }
 
 .continuar_simulador {
@@ -214,3 +224,8 @@ p.calc_gastos{
     margin: 0.5rem;
 }
 
+.coluna_simulador {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 50px 0px;
+}
