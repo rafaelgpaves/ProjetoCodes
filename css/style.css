@@ -97,6 +97,25 @@ NAO ESTA SENDO USADO
     justify-content: space-around;
 }
 
+.corpo_simulador {
+    height: 100vh;
+}
+
+.main_simulador {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    min-height: 100%;
+}
+.coluna_simulador {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-grow: 0.5;
+}
+
 .texto_simulador {
     display: flex;
     flex-direction: column;
@@ -107,8 +126,9 @@ NAO ESTA SENDO USADO
 .input_simulador {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
 }
 
 .continuar_simulador {
@@ -219,10 +239,4 @@ p.calc_gastos{
     flex-direction: row ;
     justify-content: center;
     margin: 0.5rem;
-}
-
-.coluna_simulador {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0px 50px 0px;
 }
