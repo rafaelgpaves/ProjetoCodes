@@ -2,7 +2,7 @@
 
 .center { 
     display:flex;
-    text-align: center;
+    align-items:  center;
 }
 .profile_picture{
     text-align:center;
@@ -140,6 +140,7 @@ header img {
 
 footer {
     display: flex;
+    padding: 1rem;
 }
 
 video {
@@ -179,9 +180,10 @@ li.gastos {
     padding: 1rem;
     border: black solid 0.1rem;
 }
-.seta { 
-    top:5px;
-    left:-125px;
+.seta {
+    display:flex; 
+    padding:0 0 0 0.5rem; 
+   
 }
 .texto {
     margin: 1rem 0;
@@ -211,3 +213,4 @@ p.calc_gastos{
     justify-content: center;
     margin: 0.5rem;
 }
+
