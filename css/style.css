@@ -2,6 +2,7 @@
 
 .center { 
     display:flex;
+    align-items:  center;
     text-align: center;
     justify-content: center;
 }
@@ -169,6 +170,7 @@ header img {
 
 footer {
     display: flex;
+    padding: 1rem;
 }
 
 video {
@@ -208,9 +210,10 @@ li.gastos {
     padding: 1rem;
     border: black solid 0.1rem;
 }
-.seta { 
-    top:5px;
-    left:-125px;
+.seta {
+    display:flex; 
+    padding:0 0 0 0.5rem; 
+   
 }
 .texto {
     margin: 1rem 0;
@@ -235,8 +238,13 @@ ul.calc_gastos{
     flex-direction: column;
 }
 p.calc_gastos{
-    display: flex;
-    flex-direction: row ;
-    justify-content: center;
-    margin: 0.5rem;
+    
+    padding: 0 0.5rem 0 0.5rem ;
 }
+li.calc_gastos{
+    display: flex;
+    margin: 0.5rem;
+}   
+
+
+
