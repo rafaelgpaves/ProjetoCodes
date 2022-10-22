@@ -157,6 +157,16 @@ NAO ESTA SENDO USADO
     align-items: center;
 }
 
+.linha_simulador>li>ul {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.linha_simulador_grande>li>ul {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
 .pergunta {
     margin: 1rem 1rem 1rem 2.5rem;
     font-size: 1.1rem;
