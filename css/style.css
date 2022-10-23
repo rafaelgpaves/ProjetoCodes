@@ -275,5 +275,11 @@ li.calc_gastos{
     margin: 0.5rem;
 }   
 
+h1, h2, h3 {
+    font-family: 'Roboto Slab', serif;
+}
 
+p, li {
+    font-family: 'Roboto', sans-serif;
+}
 
