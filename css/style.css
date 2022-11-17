@@ -202,7 +202,7 @@ footer {
     padding: 1rem;
 }
 
-video {
+iframe {
     width: 90%;
     height: 80%;
     margin: 0 5%;
@@ -283,3 +283,6 @@ p, li {
     font-family: 'Roboto', sans-serif;
 }
 
+.submit {
+    margin: 1rem;
+}
