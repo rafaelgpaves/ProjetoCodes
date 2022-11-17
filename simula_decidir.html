@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
 </head>
 <body class="corpo_simulador">
     <header>
@@ -34,16 +35,16 @@
         <ul class="linha_simulador">
             <li>
                 <ul class="coluna_simulador">
-                    <li> 1 ano </li>
-                    <li> 2 anos </li>
-                    <li> 3 anos </li>
+                    <input type = 'radio' id = '1 ano' name = 'anos' value = '1'>1 ano 
+                    <input type = 'radio' id = '2 anos' name = 'anos' value = '2'>2 anos
+                    <input type = 'radio' id = '3 anos' name = 'anos' value = '3'>3 anos
                 </ul>
             </li>
             <li>
                 <ul class="coluna_simulador">
-                    <li> 5 anos </li>
-                    <li> 10 anos </li>
-                    <li> 15 anos </li>
+                    <input type = 'radio' id = '5 anos' name = 'anos' value = '5'>5 ano 
+                    <input type = 'radio' id = '10 anos' name = 'anos' value = '10'>10 anos 
+                    <input type = 'radio' id = '15 anos' name = 'anos' value = '15'>15 anos 
                 </ul>
             </li>
         </ul>
@@ -52,15 +53,15 @@
         <ul class="linha_simulador_grande">
             <li>
                 <ul class="coluna_simulador">
-                    <li> Renda Fixa </li>
-                    <li> Multimercado </li>
-                    <li> Fundos imobiliários </li>
+                    <input type = 'radio' id = 'Renda Fixa' name = 'investimentos' value = 'A'>Renda fixa
+                    <input type = 'radio' id = 'Multimercado' name = 'investimentos' value = 'B'>Multimercado
+                    <input type = 'radio' id = 'Fundos Imobiliários' name = 'investimentos' value = 'C'>Fundos Imobiliários
                 </ul>
             </li>
             <li>
                 <ul class="coluna_simulador">
-                    <li> Debentures </li>
-                    <li> Ações </li>
+                    <input type = 'radio' id = 'Debentures' name = 'investimentos' value = 'D'>Debentures 
+                    <input type = 'radio' id = 'Ações' name = 'investimentos' value = 'E'>Ações
                     <li>
                         <ul class="input_simulador">
                             <li><p>Outros</p></li>
