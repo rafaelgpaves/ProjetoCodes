@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     // codigo para aula_1_criptomoeda.html:
-    e = document.querySelector(".submit");
+   e = document.querySelector(".submit");
     e.addEventListener("click", function() {
         try {
             resposta = document.querySelector('input[name="pergunta1"]:checked').value;
@@ -21,5 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
                  
     });
+
 
     })
