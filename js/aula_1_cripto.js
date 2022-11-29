@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         p.innerHTML = "Parabéns, você já acertou a pergunta! A resposta certa era Bitcoin";
         e.remove();
         resposta_certa = document.getElementById("resposta");
-        resposta_certa.style.border = "0.1rem solid green";
+        resposta_certa.style.border = "0.1rem solid #3a5d69";
     } else if (localStorage.getItem("pergunta1") == "errou") {
         p = document.getElementById("feedback1");
         p.innerHTML = "Essa não é a resposta certa. Reveja o vídeo e tente novamente";
