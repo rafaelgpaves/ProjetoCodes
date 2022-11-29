@@ -277,12 +277,20 @@ li.calc_gastos{
 
 h1, h2, h3 {
     font-family: 'Roboto Slab', serif;
+    color: #3a5d69;
 }
 
 p, li {
     font-family: 'Roboto', sans-serif;
+    color: #3a5d69;
 }
 
 .submit {
     margin: 1rem;
+}
+body{
+    background-color: #FFE194;
+}
+a{
+    color: #19c6ff;
 }
