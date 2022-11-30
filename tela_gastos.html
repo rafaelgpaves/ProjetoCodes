@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <script src="js/script.js"></script>
+    <script src="js/tela_gastos.js"></script>
 </head>
 <body>
     <header>
@@ -18,10 +18,19 @@
         <h1>Gastos</h1>
     </header>
     <main>
+
         <ul class="coluna">
             <li><ul>
-                <li class="linha centralizar"><img class="img-gastos" src="img/gastos.png" alt="gastos"></li>
             
+                <li><input id = 'economias' type = 'number'></li>
+                <li><input type = 'number' id = 'transporte'></li>
+                <li><input type = 'number' id = 'seguro'></li>
+                <li ><input type = 'number' id = 'entretenimento'></li>
+                <li ><input type = 'number' id = 'comida'></li>
+                <li ><input type = 'number' id = 'casa'></li>
+                <div class = 'container'>
+                    <canvas class = 'quadrado'></canvas>
+                </div>
             </ul></li>
             <li><h2 class="gastos">Gastos primários</h2></li>
             <li><ol class="coluna">
