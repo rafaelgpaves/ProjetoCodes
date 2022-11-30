@@ -200,6 +200,7 @@ header img {
 footer {
     display: flex;
     padding: 1rem;
+    margin-top: auto;
 }
 
 iframe {
@@ -290,6 +291,9 @@ p, li {
 }
 body{
     background-color: #FFE194;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 a{
     color: #19c6ff;
