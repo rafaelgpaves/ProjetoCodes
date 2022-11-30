@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <script src="js/script.js"></script>
+    <script src="js/simulador.js"></script>
 </head>
 <body>
     <header>
-        <a href="simula_decidir.html">
+        <a href="index.html">
             <img src="img/arrow.png" alt="Voltar" class = 'seta'>
         </a>
         <h1>Simulador</h1>
@@ -22,58 +22,68 @@
             <li><p>Saldo: R$ xxxxxxx,xx</p></li>
             <li>
                 <ul class="input_simulador">
-                    <li><p>Quanto quer investir</p></li>
+                    <li><p>Quanto quer investir ?</p></li>
                     <li><input type ="text" ></li>
+                    <li><li><input type="submit" id="inicial" value="Submit" class="submit"></li></li>
                 </ul>
             </li>
         
-            <li><p>Quanto quer tempo deixar investido?</p></li>
-            <li><ul class="linha">
+            <li><p class="escondert">Quanto quer tempo deixar investido?</p></li>
+            <li><ul class="linha escondert">
                 <li>
                     <ul class="coluna">
-                        <li> 1 ano </li>
-                        <li> 2 anos </li>
-                        <li> 3 anos </li>
+                        <li> <input name="tempo" id="t1" type="radio" value="1">1 ano</input></li>
+                        <li> <input name="tempo" id="t2" type="radio" value="2">2 anos</input> </li>
+                        <li> <input name="tempo" id="t3" type="radio" value="3">3 anos</input> </li>
                     </ul>
                 </li>
                 <li>
                     <ul class="coluna">
-                        <li> 5 anos </li>
-                        <li> 10 anos </li>
-                        <li> 15 anos </li>
+                        <li>  <input name="tempo" id="t5" type="radio" value="5">5 anos</input>  </li>
+                        <li>  <input name="tempo" id="t10" type="radio" value="10">10 anos</input>  </li>
+                        <li>  <input name="tempo" id="t15" type="radio" value="15">15 anos</input>  </li>
+    
                     </ul>
-                </li>
-            </ul></li>
 
-            <li><p>Em qual ativo ?</p></li>
-            <li><ul class="linha">
+                </li>
+                
+                
+            </ul></li>  
+            <li class="center"><li><input type="submit" id="tempo" value="Submit" class="submit escondert"></li></li>
+
+            <li><p class="esca">Em qual ativo ?</p></li>
+            <li><ul class="linha esca">
                 <li>
                     <ul class="coluna">
-                        <li> Renda Fixa </li>
-                        <li> Multimercado </li>
-                        <li> Fundos imobiliários </li>
+                        <li> <input name="ativo" id="renda_fixa" type="radio" value="0.14">Renda Fixa </input></li>
+                        <li><input name="ativo" id="multimercado" type="radio" value="0.2">Multimercado</input>  </li>
+                        <li> <input name="ativo" id="fundos_imobilirios" type="radio" value="0.17">Fundos imobiliários</input> </li>
                     </ul>
                 </li>
                 <li>
                     <ul class="coluna">
-                        <li> Debentures </li>
-                        <li> Ações </li>
+                        <li> <input name="ativo" id="debentures" type="radio" value="0.22">Debentures</input> </li>
+                        <li> <input name="ativo" id="acoes" type="radio" value="0.3">Ações</input> </li>
                         <li>
                             <ul class="input_simulador">
-                                <li><p>Outros</p></li>
+                                <li><p> Outros</p></li>
                                 <li><input type ="text" ></li>
                             </ul>  
                         </li>
+                    
                     </ul>
+                   
                 </li>
+               
             </ul></li>
+            <li class="center coluna"><li><input type="submit" id="ativo" value="Submit" class="submit esca"></li></li>
 
-            <li><h3>Capital inicial</h3></li>
+            <!-- <li><h3>Capital inicial</h3></li>
             <li><p>R$ xxx,xx</p></li>
             <li><h3>Depois de x anos</h3></li>
             <li><p>R$ xxxx,xx</p></li>
             <li><p>retabilidade de xx,x%</p></li>
-       
+        -->
         </ul>
     </main>
     <footer class = 'center corpo'>

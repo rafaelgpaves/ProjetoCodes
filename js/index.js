@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     
+
     img = document.querySelector('.trofeus');
 
     if (localStorage.getItem('certificado_bmd') == 'completo') {
