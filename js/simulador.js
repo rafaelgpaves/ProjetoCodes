@@ -20,6 +20,13 @@ document.addEventListener('DOMContentLoaded', function() {
     p_rent=  document.createElement('p');
     li_rent.appendChild(p_rent);
 
+    li_rent.classList.add('submit');
+    li_cap.classList.add('submit');
+    li_desp.classList.add('submit');
+    li_mon_val.classList.add('submit');
+
+
+
     
     escondert =  document.querySelectorAll('.escondert');
     
