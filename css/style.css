@@ -13,6 +13,15 @@
     width: 60%;
     height: auto;
 }
+.index_body{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    min-height: 150%;
+    margin-top: 5%;
+}
+
 .conquistas{
     margin:20%;
     text-align:center;
@@ -54,6 +63,7 @@ NAO ESTA SENDO USADO
 .grafico{
     width: 60%;
     height: auto;
+    margin-top: 7%;
     /* min-width:300px;
     min-height:100px; */
 }
