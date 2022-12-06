@@ -21,31 +21,39 @@
 
         <ul class="coluna">
             <li><ul>
-            
-                <li><input id = 'economias' type = 'number'></li>
-                <li><input type = 'number' id = 'transporte'></li>
-                <li><input type = 'number' id = 'seguro'></li>
-                <li ><input type = 'number' id = 'entretenimento'></li>
-                <li ><input type = 'number' id = 'comida'></li>
-                <li ><input type = 'number' id = 'casa'></li>
-                <li><div class = 'container'>
-                    <canvas class = 'quadrado'></canvas>
-                </div></li>
+                <li><h2>Insira seus gastos por categoria:</h2></li>
+                <li>Economias (rosa):</li>
+                <li><input id = 'economias' type = 'number' value="1"></li>
+                <li>Transporte (azul claro/esverdeado):</li>
+                <li><input type = 'number' id = 'transporte' value="2"></li>
+                <li>Seguro (azul escuro):</li>
+                <li><input type = 'number' id = 'seguro' value="3"></li>
+                <li>Entretenimento (verde escuro):</li>
+                <li ><input type = 'number' id = 'entretenimento' value="4"></li>
+                <li>Comida (marrom):</li>
+                <li ><input type = 'number' id = 'comida' value="5"></li>
+                <li>Casa (vermelho):</li>
+                <li ><input type = 'number' id = 'casa' value="6"></li>
             </ul></li>
+            <li><div class = 'container'>
+                <canvas class = 'quadrado'></canvas>
+            </div></li>
             <li><h2 class="gastos">Gastos primários</h2></li>
             <li><ol class="coluna">
-                <li class="gastos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illo quos quis necessitatibus optio aperiam quidem omnis distinctio molestias minima?</li>
-                <li class="gastos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ab officia cum laudantium hic molestias aut mollitia quaerat sapiente perferendis.</li>
-                <li class="gastos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nemo tempore voluptates ratione quae. Autem fugit voluptate maiores vitae ratione.</li>
+                <li class="gastos" id="maiorgasto"> </li>
             </ol></li>
-            <li><h2 class="gastos">Gastos secundários</h2></li>
-            <li><ol class="coluna">
-                <li class="gastos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illo quos quis necessitatibus optio aperiam quidem omnis distinctio molestias minima?</li>
-                <li class="gastos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ab officia cum laudantium hic molestias aut mollitia quaerat sapiente perferendis.</li>
-                <li class="gastos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nemo tempore voluptates ratione quae. Autem fugit voluptate maiores vitae ratione.</li>
-            </ol></li>
-            <li><p>Quer melhorar seu controle sobre gastos? Veja nossa:</p></li>
-            <li class="linha centralizar"><a class="link-gastos" href="calculadora_de_gastos.html">calculadora de gastos</a></li>
+
+            <li><h2 class="gastos">Seu saldo:</h2></li>
+            <li class="gastos"><input type="number" value="2000"></li>
+
+            <li><h2 class="gastos">Vai sair?</h2></li>
+            <li><ul class="coluna">
+                <li class="gastos"><select name="saida" id="saida">
+                    <option value="entretenimento">Entretenimento</option>
+                    <option value="comida">Comida</option>
+                </select></li>
+                <li class="gastos" id="aviso"></li>
+            </ul></li>
         </ul>
     </main>
     <footer class = 'center corpo'>
