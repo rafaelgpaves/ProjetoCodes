@@ -28,9 +28,9 @@ document.addEventListener('DOMContentLoaded', function() {
             let portionAngle = (investimentoValue.total / totalNumberOfPeople) * 2 * Math.PI;
             
             ctx.beginPath();
-            ctx.arc(100, 100, 100, currentAngle, currentAngle + portionAngle);
+            ctx.arc(52*1.3, 52*1.3, 50*1.3, currentAngle, currentAngle + portionAngle);
             currentAngle += portionAngle;
-            ctx.lineTo(100, 100);
+            ctx.lineTo(50*1.3, 50*1.3);
 
             ctx.fillStyle = investimentoValue.shade;
             ctx.fill();
